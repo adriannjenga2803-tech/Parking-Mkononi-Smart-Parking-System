@@ -1,0 +1,75 @@
+# depslib dependency file v1.0
+1790493633 source:c:\users\admin\desktop\parking mkononi\parking mkononi\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<limits>
+	<thread>
+	"parking.h"
+	"vehicle.h"
+	"session.h"
+	"payment.h"
+	"storage.h"
+	"server.h"
+
+1790493633 source:c:\users\admin\desktop\parking mkononi\parking mkononi\parking.cpp
+	"parking.h"
+	<iostream>
+
+1790493633 c:\users\admin\desktop\parking mkononi\parking mkononi\parking.h
+	<string>
+	<vector>
+
+1790493633 c:\users\admin\desktop\parking mkononi\parking mkononi\vehicle.h
+	<string>
+	<vector>
+
+1790493633 source:c:\users\admin\desktop\parking mkononi\parking mkononi\vehicle.cpp
+	"vehicle.h"
+	<cctype>
+	<iostream>
+	<limits>
+
+1790493633 c:\users\admin\desktop\parking mkononi\parking mkononi\session.h
+	<string>
+	<vector>
+
+1790493633 source:c:\users\admin\desktop\parking mkononi\parking mkononi\session.cpp
+	"session.h"
+	<cctype>
+	<ctime>
+	<iostream>
+
+1790493633 c:\users\admin\desktop\parking mkononi\parking mkononi\payment.h
+	<string>
+
+1790493633 source:c:\users\admin\desktop\parking mkononi\parking mkononi\payment.cpp
+	"payment.h"
+	<iostream>
+	<iomanip>
+
+1790493633 source:c:\users\admin\desktop\parking mkononi\parking mkononi\storage.cpp
+	"storage.h"
+	<fstream>
+	<iostream>
+
+1790493633 c:\users\admin\desktop\parking mkononi\parking mkononi\storage.h
+	<string>
+	<vector>
+	"vehicle.h"
+	"session.h"
+	"payment.h"
+
+1790493633 source:c:\users\admin\desktop\parking mkononi\parking mkononi\server.cpp
+	"server.h"
+	<iostream>
+	<string>
+	<fstream>
+	<vector>
+	<winsock2.h>
+	<ws2tcpip.h>
+	"parking.h"
+
+1790493633 c:\users\admin\desktop\parking mkononi\parking mkononi\server.h
+	<vector>
+
