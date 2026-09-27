@@ -16,11 +16,10 @@ using namespace std;
 
 // WEB FILE LOCATIONS
 const string INDEX_FILE =
-    "C:\\Users\\Admin\\Desktop\\Parking Mkononi\\web\\index.html";
+    "web/index.html";
 
 const string CSS_FILE =
-    "C:\\Users\\Admin\\Desktop\\Parking Mkononi\\web\\styles.css";
-
+    "web/styles.css";
 
 // READ HTML/CSS FILE
 string readWebFile(const string& filename)
