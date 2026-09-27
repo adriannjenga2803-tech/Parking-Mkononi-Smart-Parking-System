@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <!--
+        Automatically refresh the page every 5 seconds.
+
+        This allows the website to display updated parking
+        information without using JavaScript.
+    -->
+    <meta http-equiv="refresh" content="5">
+
+    <title>Parking Mkononi Smart Parking System</title>
+
+    <link rel="stylesheet"
+          href="styles.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         HEADER
+         ===================================================== -->
+
+    <header class="header">
+
+        <div class="container">
+
+            <h1>Parking Mkononi</h1>
+
+            <p>Smart Parking System</p>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         WELCOME SECTION
+         ===================================================== -->
+
+    <section class="welcome">
+
+        <div class="container">
+
+            <h2>Welcome to Parking Mkononi</h2>
+
+            <p>
+                A modern parking management system that helps
+                drivers view available parking spaces, register
+                vehicles, manage parking sessions and complete
+                payments before exiting.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         PARKING SLOT AVAILABILITY
+         ===================================================== -->
+
+    <section class="parking-section">
+
+        <div class="container">
+
+            <h2>Parking Slot Availability</h2>
+
+            <p class="section-description">
+
+                View the current availability of parking slots
+                before entering the parking area.
+
+            </p>
+
+
+            <!--
+                The C++ web server replaces this placeholder
+                with the current parking-slot information.
+
+                Example:
+
+                A1 AVAILABLE
+                A2 OCCUPIED
+                A3 AVAILABLE
+            -->
+
+            <div class="parking-slots">
+
+                <!-- PARKING_SLOTS -->
+
+            </div>
+
+
+            <!--
+                The C++ web server replaces this placeholder
+                with the current parking summary.
+
+                Example:
+
+                Available Slots: 4
+                Occupied Slots: 2
+                Total Slots: 6
+                Parking Status: AVAILABLE
+            -->
+
+            <!-- PARKING_SUMMARY -->
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         PARKING SYSTEM SERVICES
+         ===================================================== -->
+
+    <section class="modules-section">
+
+        <div class="container">
+
+            <h2>Parking System Services</h2>
+
+
+            <div class="modules">
+
+
+                <!-- VEHICLE REGISTRATION -->
+
+                <div class="module">
+
+                    <h3>Vehicle Registration</h3>
+
+                    <p>
+
+                        Register vehicle details including
+                        registration number, vehicle type,
+                        owner's name and phone number.
+
+                    </p>
+
+                </div>
+
+
+
+                <!-- PARKING SESSIONS -->
+
+                <div class="module">
+
+                    <h3>Parking Sessions</h3>
+
+                    <p>
+
+                        Record vehicle entry time, assigned
+                        parking slot and active parking sessions.
+
+                    </p>
+
+                </div>
+
+
+
+                <!-- EXIT AND PAYMENT -->
+
+                <div class="module">
+
+                    <h3>Exit &amp; Payment</h3>
+
+                    <p>
+
+                        Calculate parking duration and determine
+                        the amount payable when the vehicle exits.
+
+                    </p>
+
+                </div>
+
+
+
+                <!-- EXIT AUTHORIZATION -->
+
+                <div class="module">
+
+                    <h3>Exit Authorization</h3>
+
+                    <p>
+
+                        Allow vehicle exit after the required
+                        parking fee has been successfully paid.
+
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         PARKING TARIFF
+         ===================================================== -->
+
+    <section class="tariff-section">
+
+        <div class="container">
+
+            <h2>Parking Tariff</h2>
+
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>Parking Duration</th>
+
+                        <th>Amount</th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+
+                    <tr>
+
+                        <td>
+                            Up to 30 minutes
+                        </td>
+
+                        <td>
+                            FREE
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>
+                            Up to 2 hours
+                        </td>
+
+                        <td>
+                            KSh 50
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>
+                            Up to 4 hours
+                        </td>
+
+                        <td>
+                            KSh 100
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>
+                            Up to 6 hours
+                        </td>
+
+                        <td>
+                            KSh 300
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>
+                            Over 6 hours
+                        </td>
+
+                        <td>
+                            KSh 500
+                        </td>
+
+                    </tr>
+
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         FOOTER
+         ===================================================== -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <p>
+
+                &copy; 2026 Parking Mkononi Smart Parking System
+
+            </p>
+
+
+            <p>
+
+                Automated Parking Management System
+
+            </p>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>okay lets
